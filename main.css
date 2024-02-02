@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.desktop{
+    background: url(./images/white-background-with-wavy-lines-copy-space_23-2148822145.avif);
+    height: 620px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.container{
+    height: 570px;
+    width: 90%;
+    background: url(./images/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: nowrap;
+    
+}
+.logo{
+    background: url(./images/logo.svg);
+    height: 70px;
+    width: 22%;
+    margin: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+}
+.content{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.left{
+    background: url(./images/illustration-mockups.svg);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: contain;
+    width: 50%;
+    margin-left: 50px;
+    
+}
+.right  h1{
+    color: whitesmoke;
+    margin-top: 40px;
+    font-size: 40px;
+    
+}
+.right  p{
+    color: whitesmoke;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button{
+    height: 45px;
+    width: 35%;
+    border-radius: 50px;
+    color: black;
+    background: whitesmoke;
+    margin-top: 20px;
+    border: 3px solid whitesmoke;
+}
+button:hover{
+    background: hsl(300, 69%, 71%);
+    color: whitesmoke;
+    border: 3px solid hsl(300, 69%, 71%);
+    transition: 1s;
+    width: 40%;
+    cursor: pointer;
+}
+.icon1:hover{
+    background: transparent;
+    border: 3px solid hsl(300, 69%, 71%);
+    
+}
+.icon2:hover{
+    background: transparent;
+    border: 3px solid hsl(300, 69%, 71%);
+    
+}
+.icon3:hover{
+    background: transparent;
+    border: 3px solid hsl(300, 69%, 71%);
+    
+}
+.icon3  i:hover{
+    color: hsl(300, 69%, 71%);
+    transition: 0.5s;
+
+}
+.icon2  i:hover{
+    color: hsl(300, 69%, 71%);
+    transition: 0.5s;
+
+}
+.icon1  i:hover{
+    color: hsl(300, 69%, 71%);
+    transition: 0.5s;
+
+}
+
+.icons{
+    margin-top: 60px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    
+}
+
+   
+.icon1  i{
+    color: whitesmoke;
+    font-size: 19px;
+    margin: 10px;
+
+}
+.icon2  i{
+    color: whitesmoke;
+    font-size: 18px;
+    margin: 10px;
+
+}
+.icon3  i{
+    color: whitesmoke;
+    font-size: 20px;
+    margin: 9px;
+
+}
+.icon1{
+    height: 40px;
+    width: 8%;
+    border-radius: 50%;
+    border: 3px solid whitesmoke;
+    margin-left: 300px;
+    
+}
+.icon2{
+    height: 40px;
+    width: 8%;
+    border-radius: 50%;
+    border: 3px solid whitesmoke;
+    margin-left: 10px;
+    
+}
+.icon3{
+    height: 40px;
+    width: 8%;
+    border-radius: 50%;
+    border: 3px solid whitesmoke;
+    margin-left: 10px;
+    
+}
